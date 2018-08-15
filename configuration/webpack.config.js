@@ -10,7 +10,8 @@ module.exports = {
     output: {
         path: resolve(__dirname, '..', 'public'),
         filename: '[name].bundle.js',
-        chunkFilename: '[name].bundle.js'
+        chunkFilename: '[name].bundle.js',
+        publicPath: '/public/'
     },
     devtool: 'source-map',
     module: {
