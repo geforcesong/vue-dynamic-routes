@@ -1,0 +1,41 @@
+{
+  "name": "vue-dynamic-routes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --config ./configuration/webpack.config.js && light-server -s . -p 7000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geforcesong/vue-dynamic-routes.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/geforcesong/vue-dynamic-routes/issues"
+  },
+  "homepage": "https://github.com/geforcesong/vue-dynamic-routes#readme",
+  "dependencies": {
+    "light-server": "^2.5.1",
+    "vue": "^2.5.17",
+    "vue-router": "^3.0.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.3.26",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "babel-plugin-transform-es2015-classes": "^6.9.0",
+    "babel-preset-es2015": "^6.3.13",
+    "css-loader": "^1.0.0",
+    "eslint": "^5.3.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "sass-loader": "^7.1.0",
+    "vue-loader": "^15.3.0",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.5.17",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0"
+  }
+}
