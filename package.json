@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/geforcesong/vue-dynamic-routes#readme",
   "dependencies": {
+    "jquery": "^3.3.1",
     "light-server": "^2.5.1",
     "vue": "^2.5.17",
     "vue-router": "^3.0.1"

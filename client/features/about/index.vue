@@ -11,6 +11,7 @@
 export default {
     methods:{
         clickMe(){
+            alert($('div').length);
             alert("i am about");
         }
     }
