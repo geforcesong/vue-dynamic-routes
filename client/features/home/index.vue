@@ -9,11 +9,13 @@
 </template>
 
 <script>
+import Formatter from '../../utils/formatter'
 export default {
     methods:{
         clickMe(){
             alert($('div').length);
             alert("i am Home");
+            alert(Formatter.formatNumber(999));
         }
     }
 }

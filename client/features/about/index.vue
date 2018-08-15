@@ -8,11 +8,13 @@
 </template>
 
 <script>
+import Formatter from '../../utils/formatter'
 export default {
     methods:{
         clickMe(){
             alert($('div').length);
             alert("i am about");
+            alert(Formatter.formatNumber(100));
         }
     }
 }
